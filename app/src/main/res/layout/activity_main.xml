@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.frame.huxh.huxhrxretrofit.MainActivity">
+
+    <Button
+        android:id="@+id/commont_rxretrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxRetrofit的基本使用"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/one_rxretrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxRetrofit第一步封装"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/two_rxretrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxRetrofit第二步封装"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/three_rxretrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxRetrofit第三步封装"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/four_rxretrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxRetrofit第四步封装"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/fifth_rxretrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxRetrofit第五步封装"/>
+</LinearLayout>
